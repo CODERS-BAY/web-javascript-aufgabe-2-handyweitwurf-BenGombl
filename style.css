@@ -75,7 +75,7 @@
     position: absolute;
     bottom: 0;
     background-color: white;
-    opacity: 0.7;
+    opacity: 0.6;
     
 }
 #aim:hover{
@@ -83,6 +83,7 @@
     
     
 }
+
 #handy{
     position: absolute;
     bottom: 0;
@@ -93,7 +94,7 @@
     background-color: lightblue;
     border: 2px solid darkblue;
     border-radius: 5px;
-    
+    z-index: 11;
 }
 
 #alien{
@@ -107,4 +108,5 @@
     background-color: darkslategray;
     border: 2px solid darkgoldenrod;
     border-radius: 5px;
+    z-index: 11;
 }
