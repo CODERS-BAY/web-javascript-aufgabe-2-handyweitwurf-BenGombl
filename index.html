@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Handyweitwurf</title>
+</head>
+
+<body>
+
+    <div id="start">
+        <button id = "moon" onclick="setMoon()">Moon</button>
+        <button id = "earth" onclick="setEarth()">Earth</button>
+        <button id = "mars" onclick="setMars()">Mars</button>
+        <button id = "jupiter" onclick="setJupiter()">Jupiter</button>
+    </div>
+    <div id="field">
+        <p id="shot">Distance: 0.00m</p>
+        
+        <p id="Strength">velocity: 0.00m/s</p>
+        <p id="Angle">Angle: 0.00deg</p>
+        <p id="gravitation">Gravitation: 9.81m/s<sup>2</sup></p>
+        <p id="result"></p>
+        
+        <div id="stageButtons">
+            <button id = "newTry" onclick="newTry()">Try Again</button>
+            <button onclick="setMoon()">Moon</button>
+            <button onclick="setEarth()">Earth</button>
+            <button onclick="setMars()">Mars</button>
+            <button onclick="setJupiter()">Jupiter</button>
+        </div>
+
+        <p id="handy">H</p>
+        <p id=alien>A</p>
+        <div id="aim"></div>
+    </div>
+
+
+
+
+</body>
+<script src="script.js"></script>
+
+</html>

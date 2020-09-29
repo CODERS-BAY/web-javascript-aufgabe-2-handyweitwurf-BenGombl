@@ -1,0 +1,112 @@
+#field, #start{
+    position: absolute;
+    width: 1500px;
+    height: 600px;
+    background-color: darkslategray;
+    margin: 0;
+    overflow: hidden;
+    
+    background-size: cover;
+    color: white;
+
+    border-bottom: 1rem solid black;
+    
+}
+
+#start{
+    z-index: 4;
+    display: flex;
+    justify-content: space-between;
+}
+#start button{
+    width: 25%;
+    background-size: cover;
+    color: white;
+    text-shadow: 0 0 0.5rem black;
+    font-size: 5rem;
+}
+
+#start button:hover{
+    border: 1rem solid red;
+    text-shadow: 0 0 0.5rem green;
+    font-size: 5.5rem;
+    
+}
+
+#start button#moon{
+    background-image: url(images/moon.jpg);
+}
+#start button#earth{
+    background-image: url(images/earth_1.jpg);
+}
+#start button#mars{
+    background-image: url(images/mars.jfif);
+}
+#start button#jupiter{
+    background-image: url(images/jupiter.jpg);
+}
+
+#field p, #newTry{
+    margin-left: 1rem;
+}
+
+#field #result{
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    text-shadow: 0 0 0.4rem black;
+
+    font-size: 9rem;
+    z-index: 10;
+}
+
+#field #stageButtons{
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+}
+#aim{
+    width: 450px;
+    height: 450px;
+    position: absolute;
+    bottom: 0;
+    background-color: white;
+    opacity: 0.6;
+    
+}
+#aim:hover{
+    cursor: crosshair;
+    
+    
+}
+
+#handy{
+    position: absolute;
+    bottom: 0;
+    color: red;
+    font-size: 3rem;
+    margin: 0;
+    padding: 0;
+    background-color: lightblue;
+    border: 2px solid darkblue;
+    border-radius: 5px;
+    z-index: 3;
+}
+
+#alien{
+    position: absolute;
+    bottom: 0;
+    left: -150px;
+    color: lightgreen;
+    font-size: 3rem;
+    margin: 0;
+    padding: 0;
+    background-color: darkslategray;
+    border: 2px solid darkgoldenrod;
+    border-radius: 5px;
+    z-index: 11;
+}
