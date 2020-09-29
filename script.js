@@ -20,10 +20,7 @@ aim.addEventListener("mousemove", function () {
         document.getElementById("Strength").innerHTML = "Velocity: " + (velocity*100).toFixed(2) + "m/s";
         document.getElementById("Angle").innerHTML = "Angle : " + (Math.asin(y / Math.sqrt(y * y + x * x)) * 57.2958).toFixed(2) + "deg";
     }
-
 })
-
-
 
 var xPos = 0;
 var yPos = 0;
@@ -38,10 +35,9 @@ function newTry() {
     if (fly) {
         clearInterval(interval);
         fly = false;
-
     }
     shot = false;
-    alienPos = Math.floor(Math.random() * Math.floor(7)) + 2;
+    alienPos = Math.floor(Math.random() * 7) + 2;
 
     alien.style.left = alienPos*10 + "rem";
    
